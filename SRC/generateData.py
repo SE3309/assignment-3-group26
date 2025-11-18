@@ -75,7 +75,7 @@ def main():
     print()
 
     # CAREGIVER
-    print("Insert caregivers")
+    print("--Insert caregivers")
     for cid in range(1, N_CAREGIVERS + 1):
         fn = random.choice(first_names)
         ln = random.choice(last_names)
@@ -93,7 +93,7 @@ def main():
     print()
 
     # PATIENT
-    print("Insert patients")
+    print("--Insert patients")
     for pid in range(1, N_PATIENTS + 1):
         fn = random.choice(first_names)
         ln = random.choice(last_names)
@@ -121,7 +121,7 @@ def main():
     print()
 
     # PREFERENCES (1-1 with Patient)
-    print("Insert preferences")
+    print("--Insert preferences")
     languages = ["English", "French", "Spanish"]
     for pid in range(1, N_PATIENTS + 1):
         lang = random.choice(languages)
@@ -136,7 +136,7 @@ def main():
     print()
 
     #DEVICE (1-1 with Patient)
-    print("Insert devices")
+    print("--Insert devices")
     for pid in range(1, N_PATIENTS + 1):
         battery = random.randint(1, 100)
         has_button = random.choice([0, 1])
@@ -150,7 +150,7 @@ def main():
     print()
 
     #LOCATION (1-1 with Device/Patient)
-    print("Insert locations")
+    print("--Insert locations")
     for pid in range(1, N_PATIENTS + 1):
         street_num = random.randint(1, 9999)
         street_name = random.choice(
@@ -171,7 +171,7 @@ def main():
     print()
 
     #MEDICATION
-    print("Insert medications")
+    print("--Insert medications")
     for mid in range(1, N_MEDICATIONS + 1):
         name = f"Medication {mid}"
         desc = f"Description for medication {mid}"
@@ -195,7 +195,7 @@ def main():
     print()
 
     #REMINDERS
-    print("Insert reminders")
+    print("--Insert reminders")
     for rid in range(1, N_REMINDERS + 1):
         patient_id = random.randint(1, N_PATIENTS)
         caregiver_id = random.randint(1, N_CAREGIVERS)
@@ -238,7 +238,7 @@ def main():
     print()
 
     #AVAILABILITY 
-    print("Insert availability")
+    print("--Insert availability")
     for cid in range(1, N_CAREGIVERS + 1):
         # each caregiver gets availability on 3–6 random days
         num_days = random.randint(3, 6)
