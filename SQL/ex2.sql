@@ -10,7 +10,6 @@ CREATE TABLE Caregiver (
 
 DESCRIBE Caregiver;
 
-Creating Patient Table 
 CREATE TABLE Patient (
     patientID INT AUTO_INCREMENT PRIMARY KEY,
     firstName VARCHAR(255),
