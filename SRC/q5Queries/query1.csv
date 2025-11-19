@@ -1,0 +1,4 @@
+reminderID,patientID,caregiverID,eventTime,medicationID,eventDescription,scheduledTime,notes,isComplete
+600,597,184,"2024-04-18 16:09:53",51,"Doctor appointment","2024-04-18 15:40:53","No issues.",0
+644,597,174,"2024-02-11 08:25:20",187,"Morning medication","2024-02-11 09:40:20","Follow up in one week.",0
+1121,597,460,"2024-04-01 03:22:21",32,"Doctor appointment","2024-04-01 03:39:21","Refill needed soon.",1

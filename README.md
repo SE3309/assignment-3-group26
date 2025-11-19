@@ -7,3 +7,9 @@ The SRC folder should have the data files you used as well as any script you use
 The SQL Folder should include all the required SQL files for each of the questions.
 
 The DUMP folder should contain an exported copy of your database.
+
+
+# Our Notes 
+All outputs of the mySQL are in ss in our word doc that's been submitted (confirmed this was okay with the TA during our lab period)
+
+The outputs of the Q5 SELECT queries were also added in a folder in the SRC folder
